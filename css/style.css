@@ -114,9 +114,36 @@
   font-weight: 600;
 }
 
+/* ****************** */
+/* LOGOS SECTIONS */
+/* ****************** */
+
+.heading-featured-in {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75px;
+  font-weight: 500;
+  color: #999;
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+.section-featured {
+  padding: 4.8rem 0 0 0;
+}
 .hero-delivered-text-highlight {
   color: #b75500;
   font-weight: 700;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }
 
 /* ****************** */
