@@ -36,6 +36,7 @@ Paragraph:1.6
  ---- 04 Border radius: 
  
 Default: 9px;
+Medium:11px
 
  ---- 05 Whitespaces:
 - SPACING SYSTEM (px)
@@ -159,4 +160,26 @@ body {
 .btn--outline:active {
   background-color: #fdf2e9;
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.center-text {
+  text-align: center;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
+
+.link:link,
+.link:visited {
+  color: #cf711f;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #884b00;
+  border-bottom: 1px solid transparent;
 }
