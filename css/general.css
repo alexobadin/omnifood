@@ -74,6 +74,12 @@ body {
   display: grid;
   row-gap: 9.6rem;
   column-gap: 4.8rem;
+
+  margin-bottom: 9.6rem;
+}
+
+.grid:last-child {
+  margin-bottom: 0;
 }
 
 .grid--2-column {
@@ -82,6 +88,10 @@ body {
 
 .grid--3-column {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-column {
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .grid--center-v {
@@ -183,4 +193,23 @@ body {
 .link:active {
   color: #884b00;
   border-bottom: 1px solid transparent;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.list-icon {
+  color: #b75500;
+  width: 30px;
+  height: 30px;
 }

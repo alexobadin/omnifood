@@ -288,25 +288,6 @@ strong {
   font-weight: 500;
 }
 
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
-}
-.list-icon {
-  color: #b75500;
-  width: 30px;
-  height: 30px;
-}
-
 .all-recipes {
   margin-top: 4.8rem;
   text-align: center;
@@ -372,4 +353,87 @@ strong {
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* ****************** */
+/* PRICING SECTIONS */
+/* ****************** */
+
+.section-pricing {
+  padding: 9.6rem;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+
+.pricing-plan {
+  background-color: #fdf2e9;
+  border-radius: 11px;
+  padding: 4.8rem;
+  width: 75%;
+}
+
+.pricing-plan--complete {
+  background-color: white;
+}
+
+.plan-header--best-value {
+  position: relative;
+  overflow: hidden;
+}
+
+.plan-header--best-value::after {
+  content: 'Best value';
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  top: 5%;
+  right: -10%;
+  transform: rotate(45deg);
+  background-color: #ffe100;
+  padding: 0.8rem 4rem;
+  color: rgb(26, 26, 26);
+}
+
+.pricing-plane--starter {
+  justify-self: end;
+  box-shadow: 0 0 3px rgba(255, 194, 97, 0.97);
+}
+
+.plane-name {
+  color: #cf711f;
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 3.2rem;
+}
+.plane-price {
+  font-size: 6.2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+
+.plane-price span {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-right: 0.8rem;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: rgb(131, 131, 131);
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4.8rem;
+}
+
+.list-item strong {
+  font-weight: 600;
 }
