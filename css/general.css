@@ -69,6 +69,7 @@ body {
   padding: 0 3.2rem;
   margin: 0 auto;
 }
+
 .grid {
   display: grid;
   row-gap: 9.6rem;
