@@ -1,0 +1,155 @@
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128   */
+
+/* ****************** */
+/* 1344px/16px = 84em */
+/*BELOW 1344px*/
+/* ****************** */
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .hero-heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .testimonials-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero {
+    gap: 6.1rem;
+  }
+}
+
+/* ****************** */
+/*BELOW 1230px*/
+/* ****************** */
+
+@media (max-width: 77em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .hero {
+    gap: 6.4rem;
+  }
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+
+/* ****************** */
+/*BELOW 1120px*/
+/* ****************** */
+
+@media (max-width: 70em) {
+  .plane-price {
+    font-size: 4.4rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .header-list {
+    gap: 2.4rem;
+  }
+}
+
+/* ****************** */
+/* BELOW 960px (tablets) */
+/* ****************** */
+
+@media (max-width: 60rem) {
+  .plane-price {
+    font-size: 3.6rem;
+  }
+
+  .section-pricing {
+    padding: 4.8rem;
+  }
+
+  /* 8px/16px = 0.5 = 50% */
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 9.6rem;
+    gap: 6.4rem;
+  }
+
+  .hero-textbox,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .hero-btn-flex-container {
+    justify-content: center;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+  .hero-delivered-meals {
+    justify-content: center;
+    margin-top: 4.8rem;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-number {
+    font-size: 7.4rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem;
+  }
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .list-item {
+    line-height: 1.2;
+  }
+
+  .cta-grid {
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  button.btn {
+    margin-top: 1.6rem;
+  }
+}
