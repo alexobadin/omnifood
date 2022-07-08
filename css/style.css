@@ -38,6 +38,12 @@
 }
 
 .header-nav-cta:link,
+.header-nav-cta:visited {
+  color: white;
+  background-color: #e56d04;
+}
+
+.header-nav-cta:link,
 .header-nav-cta:active {
   display: inline-block;
   padding: 1.2rem 2.4rem;
@@ -474,7 +480,7 @@ strong {
 /* ****************** */
 
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 4.8rem 0 12.8rem 0;
 }
 
 .cta-grid {
@@ -541,8 +547,6 @@ strong {
   color: #aaa;
 }
 
-.cta-form select {
-}
 .cta-form button {
   background-color: #442a0b;
   color: #fff3dd;
@@ -569,4 +573,80 @@ strong {
 .cta-form button:hover {
   background-color: #dad4ce;
   color: #201405;
+}
+
+/* ****************** */
+/* FOOTER SECTION */
+/* ****************** */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: rgb(125, 125, 125);
+  margin-top: auto;
+}
+
+.address-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: rgb(125, 125, 125);
+}
+
+.footer-logo {
+  display: flex;
+  margin-bottom: 3.2rem;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:visited,
+.footer-link:link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: rgb(125, 125, 125);
+  transition: 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: rgb(27, 27, 27);
 }

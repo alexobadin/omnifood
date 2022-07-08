@@ -52,13 +52,13 @@ html {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* 
 *:focus {
-  outline: none;
-  /* outline: 4px dotted #e67e22;
+  outline: none; */
+/* outline: 4px dotted #e67e22;
   outline-offset: 8px; */
-  box-shadow: 0 0 0 0.8rem #ffb97b;
-}
+/* box-shadow: 0 0 0 0.8rem #ffb97b;
+} */
 
 body {
   font-family: 'Rubik', sans-serif;
@@ -99,6 +99,10 @@ body {
 
 .grid--4-column {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-column {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
