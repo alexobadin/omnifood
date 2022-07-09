@@ -83,7 +83,7 @@
 /* BELOW 960px (tablets) */
 /* ****************** */
 
-@media (max-width: 60rem) {
+@media (max-width: 60em) {
   .plane-price {
     font-size: 3.6rem;
   }
@@ -152,4 +152,64 @@
   button.btn {
     margin-top: 1.6rem;
   }
+  /* ****************** */
+  /* Mobile nav */
+  /* ****************** */
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-open .header-nav {
+    opacity: 98%;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .header-nav {
+    background-color: rgba(255, 255, 255, 0.974);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+
+    /* hide visually */
+    opacity: 0;
+
+    /* hide for keyboard and mouse */
+    pointer-events: none;
+
+    /* hide for screen readers */
+    visibility: hidden;
+  }
+
+  .header-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .header-list-items:link,
+  .header-list-items:visited {
+    font-size: 3rem;
+  }
+}
+/* ****************** */
+/* 750px/16px = 47em */
+/* BELOW 750px (Smaller tablets) */
+/* ****************** */
+
+@media (max-width: 47em) {
 }

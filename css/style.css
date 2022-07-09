@@ -18,6 +18,31 @@
 }
 
 /* ****************** */
+/* Mobile Navigation */
+/* ****************** */
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 6.4rem;
+  width: 6.4rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name='close-outline'] {
+  display: none;
+}
+
+/* <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon> */
+
+/* ****************** */
 /* Navigation */
 /* ****************** */
 
@@ -512,7 +537,7 @@ strong {
 
 .cta-img-box {
   background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.092), rgba(230, 125, 34, 0.161)),
-    url(/img/eating.jpg);
+    url(../img/eating.jpg);
   background-size: cover;
   background-position: center;
 }
