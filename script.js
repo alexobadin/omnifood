@@ -9,9 +9,11 @@ const headerListItems = document.querySelectorAll('.header-list-items');
 
 const openModal = function () {
   modal.classList.add('nav-open');
+  document.body.classList.add('no-scroll');
 };
 const closeModal = function () {
   modal.classList.remove('nav-open');
+  document.body.classList.remove('no-scroll');
 };
 
 openBtn.addEventListener('click', openModal);
