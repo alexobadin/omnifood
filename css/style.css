@@ -675,3 +675,20 @@ strong {
 .footer-link:active {
   color: rgb(27, 27, 27);
 }
+
+.up-button {
+  display: flex;
+  justify-content: end;
+}
+
+.up-btn:visited,
+.up-btn:link {
+  background-color: #ffffff;
+
+  margin-top: 4.8rem;
+  box-shadow: 0 0 0.4rem #ef8d38;
+}
+
+.up-btn:hover {
+  box-shadow: 0 0 1rem #ef8d38;
+}
