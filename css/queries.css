@@ -345,4 +345,12 @@
   .icon-mobile-nav {
     width: 4.6rem;
   }
+
+  .section-cta {
+    padding-bottom: 2.4rem;
+  }
+  .up-btn:visited,
+  .up-btn:link {
+    padding: 1.2rem 3.2rem;
+  }
 }

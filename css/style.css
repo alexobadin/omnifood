@@ -678,17 +678,14 @@ strong {
 
 .up-button {
   display: flex;
-  justify-content: end;
+  justify-content: center;
 }
 
 .up-btn:visited,
 .up-btn:link {
   background-color: #ffffff;
+  color: rgb(126, 126, 126);
 
   margin-top: 4.8rem;
-  box-shadow: 0 0 0.4rem #ef8d38;
-}
-
-.up-btn:hover {
-  box-shadow: 0 0 1rem #ef8d38;
+  box-shadow: 0 0 0.2rem #ef8d38;
 }
