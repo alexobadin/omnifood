@@ -1,7 +1,7 @@
 'use strict';
 
 /////////// open/close menu btn
-const modal = document.querySelector('.header ');
+const modal = document.querySelector('.header');
 const openBtn = document.getElementById('open-btn');
 const closeBtn = document.getElementById('close-btn');
 
@@ -10,10 +10,14 @@ const headerListItems = document.querySelectorAll('.header-list-items');
 const openModal = function () {
   modal.classList.add('nav-open');
   document.body.classList.add('no-scroll');
+  // document.querySelector('html').classList.add('no-scroll');
+  // document.querySelector('.hero-section').classList.add('no-scroll');
 };
 const closeModal = function () {
   modal.classList.remove('nav-open');
   document.body.classList.remove('no-scroll');
+  // document.querySelector('html').classList.remove('no-scroll');
+  // document.querySelector('.hero-section').classList.remove('no-scroll');
 };
 
 openBtn.addEventListener('click', openModal);
